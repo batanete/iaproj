@@ -1,0 +1,565 @@
+net
+{
+    node_size = (80 40);
+    HR_realname_Ifs = "Ifs";
+    HR_realname_Cycles = "Cycles";
+    HR_realname_Strings = "Strings";
+    HR_realname_Lists = "Lists";
+    HR_realname_Dictionaries = "Dictionaries";
+    HR_realname_Files = "Files";
+    HR_realname_Turtle = "Turtle";
+    HR_realname_Ex1 = "Ex1";
+    HR_realname_Ex2 = "Ex2";
+    HR_realname_Ex3 = "Ex3";
+    HR_realname_Ex4 = "Ex4";
+    HR_realname_Ex5 = "Ex5";
+    HR_realname_Ex6 = "Ex6";
+    HR_realname_Ex7 = "Ex7";
+    HR_realname_Result0 = "Result0";
+    HR_realname_Result1 = "Result1";
+    HR_DBN_Num_Slices = "5";
+    HR_Desc = "";
+    HR_OOBN_CheckConsistency = "1";
+    HR_OOBN_FitExpand = "1";
+    HR_Zoom_ZoomFactor = "100";
+    HR_Groups_GroupColors = "";
+    HR_Groups_GroupNames = "";
+    HR_Groups_UserGroupsNo = "0";
+    HR_Utility_Link = "63";
+    HR_Probabilistic_Link = "63";
+    HR_Functional_Link = "63";
+    HR_Binding_Link = "63";
+    HR_Information_Arc = "63";
+    HR_Color_Interface = "21";
+    HR_Color_Instance = "0";
+    HR_Color_DiscreteFunction = "5";
+    HR_Color_Function = "4";
+    HR_Color_Utility = "36";
+    HR_Color_Decision = "17";
+    HR_Color_ContinuousChance = "48";
+    HR_Color_DiscreteChance = "16";
+    HR_Monitor_InitSD = "2";
+    HR_Monitor_Utility_Arrange = "0";
+    HR_Monitor_Mean_Variance = "1";
+    HR_Monitor_Chance_Utility = "1";
+    HR_Monitor_InitStates = "5";
+    HR_Monitor_OpenGraph = "0";
+    HR_Monitor_GraphPrecision = "100";
+    HR_Monitor_AutoUpdGraph = "0";
+    HR_Compile_MaxMinimalSeparators = "100000";
+    HR_Compile_ApproxEpsilon = "1.0E-5";
+    HR_Compile_Approximate = "0";
+    HR_Compile_SaveToMemory = "0";
+    HR_Compile_Compress = "0";
+    HR_Compile_TriangMethod = "0";
+    HR_Propagate_AutoNormal = "1";
+    HR_Propagate_AutoSum = "1";
+    HR_Propagate_Auto = "1";
+    HR_Font_Italic = "0";
+    HR_Font_Weight = "400";
+    HR_Font_Size = "-12";
+    HR_Font_Name = "javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=bold,size=12]";
+    HR_Grid_GridShow = "0";
+    HR_Grid_GridSnap = "0";
+    HR_Grid_Y = "40";
+    HR_Grid_X = "40";
+}
+
+node Result2
+{
+    label = "";
+    position = (965 580);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Result1
+{
+    label = "";
+    position = (609 527);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "";
+    HR_LinkMode = "";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Result0
+{
+    label = "";
+    position = (397 580);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_State_2 = "";
+    HR_LinkGroup = "";
+    HR_LinkMode = "";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex7
+{
+    label = "";
+    position = (1130 25);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex6
+{
+    label = "";
+    position = (1024 28);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex5
+{
+    label = "";
+    position = (921 25);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex4
+{
+    label = "";
+    position = (820 24);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex3
+{
+    label = "";
+    position = (710 23);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex2
+{
+    label = "";
+    position = (609 20);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ex1
+{
+    label = "";
+    position = (511 20);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Turtle
+{
+    label = "";
+    position = (810 553);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex3:0][Result0:0]";
+    HR_LinkMode = "[Ex3:0][Result0:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Files
+{
+    label = "";
+    position = (939 421);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex7:0][Result2:0]";
+    HR_LinkMode = "[Ex7:0][Result2:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Dictionaries
+{
+    label = "";
+    position = (684 440);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex6:0][Result2:0]";
+    HR_LinkMode = "[Ex6:0][Result2:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Lists
+{
+    label = "";
+    position = (317 243);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex5:0][Result1:0][Result2:0][Dictionaries:0]";
+    HR_LinkMode = "[Ex5:0][Result1:0][Result2:0][Dictionaries:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Strings
+{
+    label = "";
+    position = (833 326);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex4:0][Ex7:0][Ex6:0][Result1:0][Result2:0][Files:0]";
+    HR_LinkMode = "[Ex4:0][Ex7:0][Ex6:0][Result1:0][Result2:0][Files:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Cycles
+{
+    label = "";
+    position = (655 304);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex2:0][Ex3:0][Ex4:0][Ex5:0][Ex6:0][Ex7:0][Result0:0][Result1:0][Result2:0][Turtle:0][Dictionaries:0][Lists:0][Files:0][Strings:0]";
+    HR_LinkMode = "[Ex2:0][Ex3:0][Ex4:0][Ex5:0][Ex6:0][Ex7:0][Result0:0][Result1:0][Result2:0][Turtle:0][Dictionaries:0][Lists:0][Files:0][Strings:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Ifs
+{
+    label = "";
+    position = (413 414);
+    states = ("false" "true");
+    subtype = boolean;
+    HR_LinkControlPoints = "";
+    HR_LinkGroup = "[Ex1:0][Ex2:0][Ex3:0][Ex4:0][Ex5:0][Ex6:0][Ex7:0][Result0:0][Result1:0][Result2:0][Cycles:0][Turtle:0][Strings:0][Lists:0][Dictionaries:0][Files:0]";
+    HR_LinkMode = "[Ex1:0][Ex2:0][Ex3:0][Ex4:0][Ex5:0][Ex6:0][Ex7:0][Result0:0][Result1:0][Result2:0][Cycles:0][Turtle:0][Strings:0][Lists:0][Dictionaries:0][Files:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+potential (Result2 | Files Dictionaries Lists Strings Cycles Ifs)
+{
+    data
+     = ((((((( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=false  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=false  Lists=false  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=false  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=false  Dictionaries=false  Lists=false  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=false  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=false  Lists=false  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=false  Strings=true  Cycles=true  Ifs=false
+	     ( 0.95 0.05 ))))	%  Files=false  Dictionaries=false  Lists=false  Strings=true  Cycles=true  Ifs=true
+	  (((( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=true  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=false  Lists=true  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=true  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=false  Dictionaries=false  Lists=true  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=true  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=false  Lists=true  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=false  Lists=true  Strings=true  Cycles=true  Ifs=false
+	     ( 0.9 0.1 )))))	%  Files=false  Dictionaries=false  Lists=true  Strings=true  Cycles=true  Ifs=true
+	 ((((( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=false  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=true  Lists=false  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=false  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=false  Dictionaries=true  Lists=false  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=false  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=true  Lists=false  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=false  Strings=true  Cycles=true  Ifs=false
+	     ( 0.95 0.05 ))))	%  Files=false  Dictionaries=true  Lists=false  Strings=true  Cycles=true  Ifs=true
+	  (((( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=true  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=true  Lists=true  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=true  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=false  Dictionaries=true  Lists=true  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=true  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=false  Dictionaries=true  Lists=true  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=false  Dictionaries=true  Lists=true  Strings=true  Cycles=true  Ifs=false
+	     ( 0.5 0.5 ))))))	%  Files=false  Dictionaries=true  Lists=true  Strings=true  Cycles=true  Ifs=true
+	(((((( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=false  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=false  Lists=false  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=false  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=true  Dictionaries=false  Lists=false  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=false  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=false  Lists=false  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=false  Strings=true  Cycles=true  Ifs=false
+	     ( 0.95 0.05 ))))	%  Files=true  Dictionaries=false  Lists=false  Strings=true  Cycles=true  Ifs=true
+	  (((( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=true  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=false  Lists=true  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=true  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=true  Dictionaries=false  Lists=true  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=true  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=false  Lists=true  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=false  Lists=true  Strings=true  Cycles=true  Ifs=false
+	     ( 0.5 0.5 )))))	%  Files=true  Dictionaries=false  Lists=true  Strings=true  Cycles=true  Ifs=true
+	 ((((( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=false  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=true  Lists=false  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=false  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=true  Dictionaries=true  Lists=false  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=false  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=true  Lists=false  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=false  Strings=true  Cycles=true  Ifs=false
+	     ( 0.95 0.05 ))))	%  Files=true  Dictionaries=true  Lists=false  Strings=true  Cycles=true  Ifs=true
+	  (((( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=true  Strings=false  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=true  Lists=true  Strings=false  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=true  Strings=false  Cycles=true  Ifs=false
+	     ( 0.95 0.05 )))	%  Files=true  Dictionaries=true  Lists=true  Strings=false  Cycles=true  Ifs=true
+	   ((( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=true  Strings=true  Cycles=false  Ifs=false
+	     ( 0.95 0.05 ))	%  Files=true  Dictionaries=true  Lists=true  Strings=true  Cycles=false  Ifs=true
+	    (( 0.95 0.05 )	%  Files=true  Dictionaries=true  Lists=true  Strings=true  Cycles=true  Ifs=false
+	     ( 0.05 0.95 )))))));	%  Files=true  Dictionaries=true  Lists=true  Strings=true  Cycles=true  Ifs=true
+}
+
+potential (Result1 | Lists Strings Cycles Ifs)
+{
+    data
+     = ((((( 0.95 0.05 )	%  Lists=false  Strings=false  Cycles=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Lists=false  Strings=false  Cycles=false  Ifs=true
+	  (( 0.95 0.05 )	%  Lists=false  Strings=false  Cycles=true  Ifs=false
+	   ( 0.9 0.1 )))	%  Lists=false  Strings=false  Cycles=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Lists=false  Strings=true  Cycles=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Lists=false  Strings=true  Cycles=false  Ifs=true
+	  (( 0.95 0.05 )	%  Lists=false  Strings=true  Cycles=true  Ifs=false
+	   ( 0.5 0.5 ))))	%  Lists=false  Strings=true  Cycles=true  Ifs=true
+	(((( 0.95 0.05 )	%  Lists=true  Strings=false  Cycles=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Lists=true  Strings=false  Cycles=false  Ifs=true
+	  (( 0.95 0.05 )	%  Lists=true  Strings=false  Cycles=true  Ifs=false
+	   ( 0.5 0.5 )))	%  Lists=true  Strings=false  Cycles=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Lists=true  Strings=true  Cycles=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Lists=true  Strings=true  Cycles=false  Ifs=true
+	  (( 0.95 0.05 )	%  Lists=true  Strings=true  Cycles=true  Ifs=false
+	   ( 0.05 0.95 )))));	%  Lists=true  Strings=true  Cycles=true  Ifs=true
+}
+
+potential (Result0 | Turtle Cycles Ifs)
+{
+    data
+     = (((( 0.9 0.1 )	%  Turtle=false  Cycles=false  Ifs=false
+	  ( 0.5 0.5 ))	%  Turtle=false  Cycles=false  Ifs=true
+	 (( 0.9 0.1 )	%  Turtle=false  Cycles=true  Ifs=false
+	  ( 0.4 0.6 )))	%  Turtle=false  Cycles=true  Ifs=true
+	((( 0.9 0.1 )	%  Turtle=true  Cycles=false  Ifs=false
+	  ( 0.3 0.7 ))	%  Turtle=true  Cycles=false  Ifs=true
+	 (( 0.9 0.1 )	%  Turtle=true  Cycles=true  Ifs=false
+	  ( 0.05 0.95 ))));	%  Turtle=true  Cycles=true  Ifs=true
+}
+
+potential (Ex7 | Strings Cycles Files Ifs)
+{
+    data
+     = ((((( 0.95 0.05 )	%  Strings=false  Cycles=false  Files=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=false  Cycles=false  Files=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=false  Cycles=false  Files=true  Ifs=false
+	   ( 0.95 0.05 )))	%  Strings=false  Cycles=false  Files=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Strings=false  Cycles=true  Files=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=false  Cycles=true  Files=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=false  Cycles=true  Files=true  Ifs=false
+	   ( 0.95 0.05 ))))	%  Strings=false  Cycles=true  Files=true  Ifs=true
+	(((( 0.95 0.05 )	%  Strings=true  Cycles=false  Files=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=true  Cycles=false  Files=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=true  Cycles=false  Files=true  Ifs=false
+	   ( 0.7 0.3 )))	%  Strings=true  Cycles=false  Files=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Strings=true  Cycles=true  Files=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=true  Cycles=true  Files=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=true  Cycles=true  Files=true  Ifs=false
+	   ( 0.02 0.98 )))));	%  Strings=true  Cycles=true  Files=true  Ifs=true
+}
+
+potential (Ex6 | Strings Cycles Dictionaries Ifs)
+{
+    data
+     = ((((( 0.95 0.05 )	%  Strings=false  Cycles=false  Dictionaries=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=false  Cycles=false  Dictionaries=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=false  Cycles=false  Dictionaries=true  Ifs=false
+	   ( 0.95 0.05 )))	%  Strings=false  Cycles=false  Dictionaries=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Strings=false  Cycles=true  Dictionaries=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=false  Cycles=true  Dictionaries=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=false  Cycles=true  Dictionaries=true  Ifs=false
+	   ( 0.7 0.3 ))))	%  Strings=false  Cycles=true  Dictionaries=true  Ifs=true
+	(((( 0.95 0.05 )	%  Strings=true  Cycles=false  Dictionaries=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=true  Cycles=false  Dictionaries=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=true  Cycles=false  Dictionaries=true  Ifs=false
+	   ( 0.95 0.05 )))	%  Strings=true  Cycles=false  Dictionaries=true  Ifs=true
+	 ((( 0.95 0.05 )	%  Strings=true  Cycles=true  Dictionaries=false  Ifs=false
+	   ( 0.95 0.05 ))	%  Strings=true  Cycles=true  Dictionaries=false  Ifs=true
+	  (( 0.95 0.05 )	%  Strings=true  Cycles=true  Dictionaries=true  Ifs=false
+	   ( 0.02 0.98 )))));	%  Strings=true  Cycles=true  Dictionaries=true  Ifs=true
+}
+
+potential (Ex5 | Cycles Lists Ifs)
+{
+    data
+     = (((( 0.95 0.05 )	%  Cycles=false  Lists=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=false  Lists=false  Ifs=true
+	 (( 0.95 0.05 )	%  Cycles=false  Lists=true  Ifs=false
+	  ( 0.95 0.05 )))	%  Cycles=false  Lists=true  Ifs=true
+	((( 0.95 0.05 )	%  Cycles=true  Lists=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=true  Lists=false  Ifs=true
+	 (( 0.95 0.05 )	%  Cycles=true  Lists=true  Ifs=false
+	  ( 0.02 0.98 ))));	%  Cycles=true  Lists=true  Ifs=true
+}
+
+potential (Ex4 | Cycles Strings Ifs)
+{
+    data
+     = (((( 0.95 0.05 )	%  Cycles=false  Strings=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=false  Strings=false  Ifs=true
+	 (( 0.95 0.05 )	%  Cycles=false  Strings=true  Ifs=false
+	  ( 0.7 0.3 )))	%  Cycles=false  Strings=true  Ifs=true
+	((( 0.95 0.05 )	%  Cycles=true  Strings=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=true  Strings=false  Ifs=true
+	 (( 0.95 0.05 )	%  Cycles=true  Strings=true  Ifs=false
+	  ( 0.02 0.98 ))));	%  Cycles=true  Strings=true  Ifs=true
+}
+
+potential (Ex3 | Cycles Turtle Ifs)
+{
+    data
+     = (((( 0.95 0.05 )	%  Cycles=false  Turtle=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=false  Turtle=false  Ifs=true
+	 (( 0.95 0.05 )	%  Cycles=false  Turtle=true  Ifs=false
+	  ( 0.7 0.3 )))	%  Cycles=false  Turtle=true  Ifs=true
+	((( 0.95 0.05 )	%  Cycles=true  Turtle=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Cycles=true  Turtle=false  Ifs=true
+	 (( 0.9 0.1 )	%  Cycles=true  Turtle=true  Ifs=false
+	  ( 0.02 0.98 ))));	%  Cycles=true  Turtle=true  Ifs=true
+}
+
+potential (Ex2 | Cycles Ifs)
+{
+    data
+     = ((( 0.95 0.05 )	%  Cycles=false  Ifs=false
+	 ( 0.9 0.1 ))	%  Cycles=false  Ifs=true
+	(( 0.9 0.1 )	%  Cycles=true  Ifs=false
+	 ( 0.02 0.98 )));	%  Cycles=true  Ifs=true
+}
+
+potential (Ex1 | Ifs)
+{
+    data
+     = (( 0.95 0.05 )	%  Ifs=false
+	( 0.05 0.95 ));	%  Ifs=true
+}
+
+potential (Turtle | Ifs Cycles)
+{
+    model_nodes = ();
+    model_data = ( if (and (Ifs, Cycles), Distribution (0.4, 0.6), Distribution (0.95, 0.05)) );
+    data
+     = ((( 0.95 0.05 )	%  Ifs=false  Cycles=false
+	 ( 0.95 0.05 ))	%  Ifs=false  Cycles=true
+	(( 0.95 0.05 )	%  Ifs=true  Cycles=false
+	 ( 0.4 0.6 )));	%  Ifs=true  Cycles=true
+}
+
+potential (Files | Strings Cycles Ifs)
+{
+    data
+     = (((( 0.95 0.05 )	%  Strings=false  Cycles=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Strings=false  Cycles=false  Ifs=true
+	 (( 0.95 0.05 )	%  Strings=false  Cycles=true  Ifs=false
+	  ( 0.95 0.05 )))	%  Strings=false  Cycles=true  Ifs=true
+	((( 0.95 0.05 )	%  Strings=true  Cycles=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Strings=true  Cycles=false  Ifs=true
+	 (( 0.95 0.05 )	%  Strings=true  Cycles=true  Ifs=false
+	  ( 0.6 0.4 ))));	%  Strings=true  Cycles=true  Ifs=true
+}
+
+potential (Dictionaries | Lists Cycles Ifs)
+{
+    data
+     = (((( 0.95 0.05 )	%  Lists=false  Cycles=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Lists=false  Cycles=false  Ifs=true
+	 (( 0.95 0.05 )	%  Lists=false  Cycles=true  Ifs=false
+	  ( 0.95 0.05 )))	%  Lists=false  Cycles=true  Ifs=true
+	((( 0.95 0.05 )	%  Lists=true  Cycles=false  Ifs=false
+	  ( 0.95 0.05 ))	%  Lists=true  Cycles=false  Ifs=true
+	 (( 0.95 0.05 )	%  Lists=true  Cycles=true  Ifs=false
+	  ( 0.05 0.95 ))));	%  Lists=true  Cycles=true  Ifs=true
+}
+
+potential (Lists | Cycles Ifs)
+{
+    data
+     = ((( 0.95 0.05 )	%  Cycles=false  Ifs=false
+	 ( 0.95 0.05 ))	%  Cycles=false  Ifs=true
+	(( 0.95 0.05 )	%  Cycles=true  Ifs=false
+	 ( 0.6 0.4 )));	%  Cycles=true  Ifs=true
+}
+
+potential (Strings | Cycles Ifs)
+{
+    data
+     = ((( 0.95 0.05 )	%  Cycles=false  Ifs=false
+	 ( 0.95 0.05 ))	%  Cycles=false  Ifs=true
+	(( 0.95 0.05 )	%  Cycles=true  Ifs=false
+	 ( 0.05 0.95 )));	%  Cycles=true  Ifs=true
+}
+
+potential (Cycles | Ifs)
+{
+    data
+     = (( 0.95 0.05 )	%  Ifs=false
+	( 0.6 0.4 ));	%  Ifs=true
+}
+
+potential (Ifs)
+{
+    data = ( 0.7 0.3 );
+}
